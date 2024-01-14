@@ -1,0 +1,90 @@
+.scrolled img{
+    width: 50% !important;
+  }
+  .scrolled p{
+    display: none;
+  }
+
+
+
+
+.brand-logo-img{
+    width: 40% !important;
+}
+.brand-name{
+    font-size: clamp(12px,1vmax,16px);
+}
+.button-icon.button-white img{
+    width: 70%;
+}
+.button-icon.button-white:hover img{
+    background-color: transparent !important;
+    width: 70%;
+}
+.certification{
+    width:70px;
+}
+@media screen and (max-width:991px) {
+    .brand-logo-img{
+        width: 20% !important;
+    }
+    .brand-name{
+        display: inline-block;
+    }
+    .button-icon.button-white img{
+        background-color: transparent !important;
+        width: 40%;
+    }
+    .button-icon.button-white:hover img{
+        width: 40%;
+    }
+    .certification{
+        width:45px;
+    }
+    .scrolled img{
+        width: 20% !important;
+      }
+    .scrolled p{
+        display: inline-block;
+      }
+}
+
+
+.services-creative-title
+{
+    text-transform: capitalize;
+}
+
+
+.my-list{
+    list-style-type: none;
+}
+
+.my-list li::before {
+    content: '\2022'; /* Unicode character for bullet point (•) */
+    color: #ff8e01; /* Orange color for bullet point */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.project-page li{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .project-page p,.project-page li{
+        text-align: left;
+    }
+    .project-page li{
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+}
+
+.custom-tab-content .tab-pane p{
+text-align: justify;
+}
+.custom-tab-content .my-list{
+    text-align: left;
+    margin-left: 1rem;
+}
